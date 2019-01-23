@@ -73,6 +73,9 @@ Header
 {
 	padding: 0px;
 }
+.navbar-default .navbar-nav > li > span a{display:inline-block;}
+.navbar-default .navbar-nav > li > span a img{width:25px; height:auto;}
+
 .jumbotron
 {
     background-color: transparent;
@@ -527,6 +530,8 @@ margin-top: 5px;
     background-color: #fff;
     border: 0px;
 }
+
+.aboutleft figure img{max-width:100%;}
 
 /**************************************
 cta
