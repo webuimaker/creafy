@@ -7,36 +7,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600,400,700|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/slick-team-slider.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <!-- Slick Nav -->
+  <link rel="stylesheet" href="SlickNav/slicknav.css">
 </head>
 
 <body>
   <!--HEADER START-->
   <div class="main-navigation navbar-fixed-top">
-    <nav class="navbar navbar-default">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			    <span class="icon-bar"></span>
-			    <span class="icon-bar"></span>
-			    <span class="icon-bar"></span>
-			  </button>
-          <a class="navbar-brand" href="index.html">Creafy</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#banner">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#service">Our Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            <li class="text-center"><span><a href="#"><img src="img/eng.jpg" alt=""></a></span> <span><a href="#"><img src="img/swedenicon.jpg" alt=""></a></span></li>
-          </ul>
-        </div>
+	    <div class="row">
+		    <div class="col-md-3">
+				<div class="navbar-header">
+				  <div class="col-md-3"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+				</div>
+			 </div>
+			
+			<div class="col-md-9">
+			    <div class="selectlang">
+							<div class="styled-select">
+							   <select>
+								  <option>English</option>
+								  <option>Swedish</option>
+							   </select>
+							</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid newnavtop">
+	  		<div class="container">
+				<div class="row">
+				<div class="col-md-12">
+					<div class="navright" id="myNavbar">
+						<ul id="menu">
+							<li class="active"><a href="#banner">Home</a></li>
+							<li><a href="about.html">About Us</a>
+              <ul>
+                  <li><a href="webdevelopment.html">Web Development</a></li>
+                  <li><a href="digitalmarketing.html">Digital Marketing</a></li>
+                  <li><a href="webdesigning.html">Web Designing</a></li>
+                </ul></li>
+							<li><a href="webdevelopment.html">Web Development</a></li>
+							<li><a href="digitalmarketing.html">Digital Marketing</a></li>
+							<li><a href="webdesigning.html">Web Designing</a></li></li>
+              <li><a href="softwaredevelopment.html">Software Development</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+             		</div>
+				</div>
+			</div>
+			</div>
+	    </div>
+		
       </div>
-    </nav>
+	  
   </div>
   <!--HEADER END-->
 
@@ -59,16 +89,16 @@
     <div class="container">
       <div class="row">
         <div class="page-title text-center">
-          <h1>About Us</h1>
+          <h1>KEEP YOUR BUSINESS CLOSER TO YOUR CUSTOMERS.</h1>
           <p>We are passionate about our work. A website that communicates your message is important, but ensuring the user experience is invaluable. <br>Whatever the application is, we ensure that our interfaces are as good looking as they are user friendly. </p>
           <hr class="pg-titl-bdr-btm"></hr>
         </div>
         <div class="col-md-6 aboutleft">
-          <figure><img src="img/aboutus.png" alt=""></figure>
+          <figure><img class="img-thumbnail" src="img/homeleft.jpg" alt=""></figure>
         </div>
         
         <div class="col-md-6">
-          <h3>Lorem Ipsum Heading</h3>
+          <h3>Why Choose Us?</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
@@ -86,60 +116,66 @@
           <hr class="pg-titl-bdr-btm"></hr>
         </div>
         <div class="col-md-4">
-          <div class="service-box">
+          <div class="service-box color1">
             <div class="service-icon"><i class="fa fa-desktop"></i></div>
             <div class="service-text">
               <h3>Digital Marketing</h3>
               <p>We cover all internet marketing strategies like search engine optimization/search engines marketing (PPC setup and Management) for Clients that are looking for growth.</p>
+			  <p><a href="#"><strong>+ Read More</strong></a></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="service-box">
+          <div class="service-box color2">
             <div class="service-icon"><i class="fa fa fa-code"></i></div>
             <div class="service-text">
               <h3>Static Website Generator</h3>
               <p>We turn designs into Jekyll, Now days Jekyll is the most popular static site generator, largely due to its adoption by Github.</p>
+			  <p><a href="#"><strong>+ Read More</strong></a></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="service-box">
+          <div class="service-box color3">
             <div class="service-icon"><i class="fa fa-edit"></i></div>
             <div class="service-text">
               <h3>Customize CMS/PWA</h3>
               <p>We turn designs into high-quality and fully functional CMS driven websites with the help of our best Developers team.</p>
+			  <p><a href="#"><strong>+ Read More</strong></a></p>
             </div>
           </div>
         </div>
         
         <div class="clearfix"></div>
         <div class="col-md-4">
-          <div class="service-box">
+          <div class="service-box color4">
             <div class="service-icon"><i class="fa fa-picture-o"></i></div>
             <div class="service-text">
               <h3>Desktop Development</h3>
               <p>For desktop development we provide support on both Windows and Mac-OSX systems.</p>
+			  <p><a href="#"><strong>+ Read More</strong></a></p>
             </div>
           </div>
         </div>
         
         <div class="col-md-4">
-          <div class="service-box">
+          <div class="service-box color5">
             <div class="service-icon"><i class="fa fa fa-mobile"></i></div>
             <div class="service-text">
               <h3>Mobile Development</h3>
               <p>Initially viewed by many as small screen adaptions of web-based apps, it is clear now that mobile devices are changing the way people work and live.</p>
+			  <p><a href="#"><strong>+ Read More</strong></a></p>
             </div>
           </div>
         </div>
         
         <div class="col-md-4">
-          <div class="service-box">
+          <div class="service-box color6">
             <div class="service-icon"><i class="fa fa-diamond"></i></div>
             <div class="service-text">
               <h3>Web Development</h3>
               <p>During the development, the web developer engages the web designer and the client through critical thinking, planning, and discussion.</p>
+			  <p><a href="#"><strong>+ Read More</strong></a></p>
             </div>
           </div>
         </div>
@@ -340,6 +376,8 @@
     </div>
   </div>
   <!--CONTACT END-->
+ 
+ <div id="back-top"><a href="#top"><span><img src="img/arrowtop.png" alt=""></span></a></div>
 
   <div class="footer-bottom">
     <div class="container">
@@ -353,13 +391,98 @@
       </div>
     </div>
   </div>
+  
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  
+  <!-- Slick Nav -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+<script src="SlickNav/jquery.slicknav.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#menu').slicknav();
+});
+
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause: true,
+    interval: 4000,
+  });
+});
+
+
+
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 500) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
+});
+
+
+
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+</script>
+  
   <script type="text/javascript" src="js/slick.min.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
-  <script src="contactform/contactform.js"></script>
-
 </body>
 
 </html>
